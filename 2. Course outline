@@ -1,0 +1,8 @@
+1. DevOps Introduction --> SDLC, Before DevOps, DevOps Lifecycle
+2. GIT / GITHUB --> Version control
+3. Micro-services, Vs Monolithic Application, Container Enginer, Docker, Containers
+4. Kubernetes --> Container Orchestration Engine, EKS --> Elastic Kubernetes Service
+5. Jenkins, CI/CD Pipeline, Maven, Jenkinsfile
+6. Monitoring --> Prometheus/Grafana, ELK
+7. Terraform --> Infrastructure Automation
+8. Ansible --> Configuration Management Tool
