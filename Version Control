@@ -1,0 +1,24 @@
+Version Control
+
+Git --> Version Control System (VCS)
+
+GitHub --> Source Code Management / Online Code Repo --> Remote Repo
+
+Why VCS?
+1. To track changes --> who commit the changes? what was the change? --> commid id
+2. To retreive from accidental deletes
+
+Types of VCS:
+1. Centralized VCS --> e.g. svn
+	Drawbacks:
+ 		a. Multiple developers cann't work on the same files/project at the same time
+ 		b. To make changes, developers need to be connected over the internet
+
+2. Distributed VCS --> e.g. git
+
+======================================================================================================
+
+ls -la --> list the hideen files/folder --> To check whether the folder is being tracked by git or not
+ls -l --> WD
+git ls-files --> SA/LR 
+git status --> To confirm SA or LR
