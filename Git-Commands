@@ -72,3 +72,32 @@
    86  git status
    87  git push origin master
    88  history
+
+git branch
+   90  git branch b1 master
+   91  git branch
+   92  git log --oneline
+   93  git log
+   94  clear
+   95  git log --oneline
+   96  git checkout b1
+   97  git branch
+   98  git log --oneline
+   99  vi b1_sample1
+  100  git status
+  101  git add .
+  102  git commit -m "b1_1st-commit"
+  103  git log --oneline
+  104  git checkout master
+  105  git log --oneline
+  106  ls -l
+  107  pwd
+  108  git checkout b1
+  109  ls -l
+  110  pwd
+  111  git branch
+  112  git checkout master
+  113  git merge b1 master
+  114  git log --oneline
+  115  git push origin b1
+  116  history
