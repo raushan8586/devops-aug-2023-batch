@@ -1,0 +1,32 @@
+1  apt update -y
+    2  clear
+    3  ls -l
+    4  pwd
+    5  clear
+    6  ls -la
+    7  mkdir project1
+    8  cd project1/
+    9  ls -la
+   10  git init
+   11  ls -la
+   12  touch file1
+   13  vi file1
+   14  git version
+   15  vi file1
+   16  cat file1
+   17  ls -l
+   18  git ls-files
+   19  git add file1
+   20  ls -l
+   21  git ls-files
+   22  git status
+   23  git commit -m "1st commit"
+   24  clear
+   25  ls -l
+   26  git ls-files
+   27  git status
+   28  history
+   29  cler
+   30  clear
+   31  git log
+   32  history
