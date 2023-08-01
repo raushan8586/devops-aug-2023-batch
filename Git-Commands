@@ -101,3 +101,8 @@ git branch
   114  git log --oneline
   115  git push origin b1
   116  history
+
+
+Head is the pointer which points to the topmost commit.
+
+
