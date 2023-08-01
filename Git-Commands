@@ -161,3 +161,9 @@ Head is the pointer which points to the topmost commit.
   171  git log --graph --pretty=oneline
 
 
+Rebase --> arrnaging the log history in the linear fashion
+
+Rebase --> Feature branch --> git rebase master
+Merge --> Destination (master) branch --> git merge src destination
+
+
