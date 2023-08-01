@@ -106,3 +106,58 @@ git branch
 Head is the pointer which points to the topmost commit.
 
 
+119  git branch
+  120  pwd
+  121  ls -l
+  122  cd project1/
+  123  ls -l
+  124  ls -la
+  125  git branch
+  126  git log --oneline
+  127  cd ..
+  128  ls -l
+  129  git clone https://github.com/raushan8586/intellipaat-repo2.git
+  130  ls -l
+  131  cd intellipaat-repo2/
+  132  ls - la
+  133  ls -la
+  134  ls -l
+  135  git ls-files
+  136  git status
+  137  cd ..
+  138  cd project1/
+  139  git log --oneline
+  140  ls -l
+  141  vi file4
+  142  ls -l
+  143  git status
+  144  git add .
+  145  git status
+  146  git ls-files
+  147  ls -l
+  148  git restore --staged file4
+  149  git status
+  150  git ls-files
+  151  git add .
+  152  git ls-files
+  153  git status
+  154  git commit -m "4th commit"
+  155  git ls-files
+  156  git log --oneline
+  157  git branch
+  158  git checkout b1
+  159  git branch
+  160  ls -l
+  161  vi b1_sample2
+  162  git add .
+  163  git commit -m "b1_2nd-commit"
+  164  git log --oneline
+  165  git branch
+  166  git log --oneline
+  167  git log --graph --pretty=oneline
+  168  git checkout master
+  169  git log --graph --pretty=oneline
+  170  git merge b1 master
+  171  git log --graph --pretty=oneline
+
+
