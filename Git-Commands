@@ -167,3 +167,74 @@ Rebase --> Feature branch --> git rebase master
 Merge --> Destination (master) branch --> git merge src destination
 
 
+173  git checkout -b b2 master
+  174  git branch
+  175  git checkout master
+  176  git log --oneline
+  177  git log --graph --pretty=oneline
+  178  git branch
+  179  ls -l
+  180  vi file5
+  181  git add .
+  182  git commit -m "5th commit"
+  183  git log --graph --pretty=oneline
+  184  git checkout b2
+  185  vi b2_demo1
+  186  git add .
+  187  git commit -m "b2_1st-commit"
+  188  git log --graph --pretty=oneline
+  189  git rebase
+  190  git rebase master
+  191  git log --graph --pretty=oneline
+  192  git checkout master
+  193  git merge b2 master
+  194  git log --graph --pretty=oneline
+  195  git branch
+  196  vi test
+  197  git add .
+  198  got commit -m "test-file-added-master"
+  199  git commit -m "test-file-added-master"
+  200  git checkout b2
+  201  vi test
+  202  git add .
+  203  git commit -m "test-file-added-b2"
+  204  git rebase master
+
+
+Merge conflict:
+  205  ls -l
+  206  cat test
+  207  git status
+  208  vi test
+  209  git status
+  210  git add test
+  211  git status
+  212  git commit -m "test-file-updated"
+  213  git status
+  214  git log --graph --pretty=oneline
+  215  git branch
+  216  git checkout master
+  217  git branch
+  218  git log --graph --pretty=oneline
+  219  ls -l
+  220  cd test
+  221  cat test
+  222  git merge b2 master
+  223  vi test
+  224  git status
+  225  git add test
+  226  git status
+  227  git commit -m "conflict-resolved"
+  228  git log --graph --pretty=oneline
+  229  git status
+  230  git rebase --continue
+  231  git status
+  232  git checkout b2
+  233  git status
+  234  git checkout master
+  235  git status
+  236  git log --graph --pretty=oneline
+
+
+
+
