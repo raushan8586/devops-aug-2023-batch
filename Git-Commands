@@ -235,6 +235,89 @@ Merge conflict:
   235  git status
   236  git log --graph --pretty=oneline
 
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+238  cd project1/
+  239  git log --oneline
+  240  git branch
+  241  git status
+  242  ls -l
+  243  git checkout b1
+  244  git status
+  245  git rebase master
+  246  git checkout b2
+  247  git rebase master
+  248  git log --oneline
+  249  ls -l
+  250  vi demo
+  251  git add .
+  252  git commit -m "demo-file-added-b2"
+  253  git checkout master
+  254  git merge b2 master
+  255  git checkout b1
+  256  vi demo
+  257  git add .
+  258  git commit -m "demo-file-added-b1"
+  259  git checkout master
+  260  git merge b1 master
+  261  git status
+  262  vi demo
+  263  git status
+  264  git add .
+  265  git status
+  266  git commit -m "conflict-resolved-2ndAug"
+  267  git status
+  268  git log --graph --pretty=oneline
+  269  cat demo
+  270  git checkout b1
+  271  git status
+  272  vi demo
+  273  git rebase master
+  274  vi demo
+  275  git checkout b2
+  276  git rebase master
+  277  vi demo
+  278  clear
+  279  git checkout master
+  280  vi ReadMe
+  281  vi app1.log
+  282  vi app2.log
+  283  git status
+  284  ls -l
+  285  vi file6
+  286  git status
+  287  vi .gitignore
+  288  git status
+  289  git add .
+  290  git commit -m "gitIgnore-file-added"
+  291  git status
+  292  vi file7
+  293  git add .
+  294  git commit "file7 added"
+  295  git commit -m "file7 added"
+  296  git status
+  297  git log --oneline
+  298  git show 81fc17a
+  299  git show 96986f4
+  300  clear
+  301  git log --oneline
+  302  git show 81fc17a
+  303  git revert 81fc17a
+  304  git log --oneline
+  305  git show 12aa2e4
+  306  git status
+  307  ls -l
+  308  clear
+  309  git log --oneline
+  310  git revert 12aa2e4
+  311  git log --oneline
+  312  ls -l
+  313  git status
+  314  git log --oneline
+  315  git reset --hard 81fc17a
+  316  git log --oneline
+
 
 
 
