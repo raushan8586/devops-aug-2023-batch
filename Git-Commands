@@ -318,6 +318,43 @@ Merge conflict:
   315  git reset --hard 81fc17a
   316  git log --oneline
 
+319  rm file7
+  320  ls -l
+  321  git status
+  322  git restore file7
+  323  git status
+  324  ls -l
+  325  git rm file7
+  326  ls -l
+  327  git ls-files
+  328  git status
+  329  git restore --staged file7
+  330  ls -l
+  331  git status
+  332  git restore file7
+  333  git status
+  334  ls -l
+  335  git ls-files
+  336  vi file8
+  337  vi file9
+  338  git add .
+  339  git commit -m "new-enhancement"
+  340  vi file8
+  341  vi file9
+  342  git status
+  343  git stash list
+  344  git stash
+  345  git stash list
+  346  git show stash@{0}
+  347  git status
+  348  git stash pop stash@{0}
+  349  git status
+  350  git stash list
+  351  git stash -p
+  352  git status
+  353  git stash list
+  354  git stash drop stash@{0}
+
 
 
 
