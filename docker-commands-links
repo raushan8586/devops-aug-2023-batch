@@ -60,3 +60,22 @@ root@ip-172-31-45-245:~# history
    47  docker exec -it b2a4e60e68d3 /bin/bash
    48  docker ps
    49  docker stats
+
+ 65  cat Dockerfile
+   66  pwd
+   67  ls -l
+   68  docker build . -t httpd1
+   69  docker images
+   70  docker run -itd -p 83:80 --name webServer httpd1
+   71  docker ps
+   72  cat index1.html
+   73  ls -l
+   74  cd ..
+   75  mkdir project2
+   76  cd project2
+   77  vi Dockerfile
+   78  docker build . -t ubuntu1
+   79  docker images
+   80  vi index1.html
+   81  docker build . -t ubuntu1
+   82  docker images
