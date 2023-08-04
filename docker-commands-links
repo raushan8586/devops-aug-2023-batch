@@ -1,0 +1,27 @@
+Links:
+https://hub.docker.com/
+https://docs.docker.com/
+
+https://docs.docker.com/engine/reference/commandline/run/
+
+
+
+
+Commands:
+root@ip-172-31-45-245:~# history
+    1  apt update -y
+    2  clear
+    3  apt install docker.io -y
+    4  clear
+    5  docker version
+    6  docker info
+    7  clear
+    8  docker version
+    9  docker images
+   10  docker pull httpd
+   11  docker images
+   12  docker ps
+   13  docker run -itd -p 82:80 httpd
+   14  docker ps
+   15  docker version
+   16  history
