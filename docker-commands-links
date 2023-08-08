@@ -121,3 +121,11 @@ https://www.ipaddressguide.com/cidr
   126  docker network ls
 
 
+docker push -->
+  131  docker image tag httpd1:latest raushan8586/devops-august-2023:httpd1
+  132  docker login
+  133  docker image push raushan8586/devops-august-2023:httpd1
+
+ECR
+https://docs.aws.amazon.com/AmazonECR/latest/userguide/docker-push-ecr-image.html
+
