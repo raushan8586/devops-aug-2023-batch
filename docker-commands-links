@@ -112,4 +112,12 @@ https://docs.docker.com/network/drivers/
 
 https://www.ipaddressguide.com/cidr
 
+ docker network ls
+  121  docker ps
+  122  docker inspect c8937ef7662e
+  123  docker network ls
+  124  docker inspect 4240a1e0563c
+  125  clear
+  126  docker network ls
+
 
