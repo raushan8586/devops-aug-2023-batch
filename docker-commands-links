@@ -110,4 +110,6 @@ Docker Volumes --> To persist data across the lifecycle of a container
 Docker Network-->
 https://docs.docker.com/network/drivers/
 
+https://www.ipaddressguide.com/cidr
+
 
