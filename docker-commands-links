@@ -10,6 +10,9 @@ Docker-Compose
 https://docs.docker.com/compose/samples-for-compose/
 https://www.baeldung.com/ops/docker-compose-restart-policies
 
+USE multiple FROM in 1 dockerfile
+https://www.geeksforgeeks.org/how-to-combine-multiple-base-images-using-single-dockerfile/
+
 
 
 
