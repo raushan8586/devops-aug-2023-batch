@@ -1,0 +1,17 @@
+Container Engine --> To create containers and to deploy microservices
+
+Container Orchestration Engine --> Kubernetes
+
+1. Auto-scaling of containers as per the incoming traffic
+2. Auto Load-Balancing of requests across all the containers
+3. Auto-deployment of containers WITHOUT DOWNTIME including rollbacks
+4. Auto-Clustering
+5. Auto-Scheduling
+6. Auto-healing of containers 
+
+Kubernetes --> Google has donated kubernetes to CNCF
+
+  AWS --> EKS
+  Azure --> AKS
+  GCP  --> GKE
+  Oracle --> OKE
