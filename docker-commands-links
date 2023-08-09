@@ -8,6 +8,7 @@ Dockerfile --> https://jenkov.com/tutorials/docker/dockerfile.html#entrypoint
 
 Docker-Compose
 https://docs.docker.com/compose/samples-for-compose/
+https://www.baeldung.com/ops/docker-compose-restart-policies
 
 
 
