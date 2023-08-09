@@ -133,3 +133,32 @@ docker push -->
 ECR
 https://docs.aws.amazon.com/AmazonECR/latest/userguide/docker-push-ecr-image.html
 
+Docker compose --> 
+
+140  docker-compose version
+  141  apt intall docker-compose -y
+  142  apt install docker-compose -y
+  143  docker-compose version
+  144  ls -l
+  145  mkdir project3
+  146  cd project3
+  147  vi docker-compose.yaml
+  148  lsof -i -P -n | grep LISTEN
+  149  cat docker-compose.yaml
+  150  docker network ls
+  151  clear
+  152  ls -l
+  153  docker-compose up -d
+  154  docker ps
+  155  docker exec -it 44d1b0d18e02 /bin/bash
+  156  docker network ls
+  157  cd /var/lib/docker
+  158  ls -l
+  159  cd volumes/
+  160  ls -l
+  161  cd project3_db_data/
+  162  ls -l
+  163  cd _data
+  164  ls -l
+  165  docker stats
+
