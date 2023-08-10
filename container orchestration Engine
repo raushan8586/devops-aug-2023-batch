@@ -15,3 +15,12 @@ Kubernetes --> Google has donated kubernetes to CNCF
   Azure --> AKS
   GCP  --> GKE
   Oracle --> OKE
+
+Kubernetes Objects --> Resources that are created in the kubernetes cluster
+1. Pods --> Encapsulation (wrapper) around a container --> To deploy microservices
+2. Replica Set --> To maintain a stable number of replica pods
+3. Deployment --> to deploy the replicaset / maintain the history of all the deployments / rollback
+4. Services --> To expose the pods --> NodePort (expose front-end pods), ClusterIP (communication between FP and BP), LoadBalancer
+
+
+
