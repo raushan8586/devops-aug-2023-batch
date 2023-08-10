@@ -23,4 +23,18 @@ Kubernetes Objects --> Resources that are created in the kubernetes cluster
 4. Services --> To expose the pods --> NodePort (expose front-end pods), ClusterIP (communication between FP and BP), LoadBalancer
 
 
+Kubernetes Architecture:
+Master Node:
+API Server --> Gatekeeper
+Scheduler --> schedule the pods on nodes
+Control Manager --> Overall health of the cluster --> nodes / pods
+ETCD --> key-value, lightweight, distributed central database --> single source of truth for the cluster
+
+
+Worker Nodes:
+Kubelet --> Ensures containers/pods are running healthy
+kube-proxy --> core networking component if the cluster
+Pods --> basic scheduling unit --> Encapsulation (wrapper) around a container --> To deploy microservices
+containers --> deploy microservices
+
 
