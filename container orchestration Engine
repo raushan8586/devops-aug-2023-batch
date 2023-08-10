@@ -38,3 +38,9 @@ Pods --> basic scheduling unit --> Encapsulation (wrapper) around a container --
 containers --> deploy microservices
 
 
+3 CLIs
+aws cli   --> aws --version
+kubectl --> kubectl version
+eksctl --> eksctl version --> https://github.com/eksctl-io/eksctl/blob/main/README.md#installation
+
+
