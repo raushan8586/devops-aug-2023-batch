@@ -41,3 +41,39 @@ kubectl delete -f nodeport-service.yaml
 kubectl delete -f loadbalancer-service.yaml
 
 kubectl get rs
+
+
+=====================================================================================
+
+13  eksctl create cluster --name=eksdemo1 --without-nodegroup
+   14  clear
+   15  eksctl utils associate-iam-oidc-provider --region ap-south-1 --cluster eksdemo1 --approve
+   16  eksctl create nodegroup --cluster=eksdemo1 --name=ng-demo1 --node-type=m5.large --nodes=2 --nodes-min=2 --nodes-max=4 --node-volume-size=20 --ssh-access --ssh-public-key=devops-june-2023 --managed --asg-access --external-dns-access --full-ecr-access --appmesh-access --alb-ingress-access
+   17  clear
+   18  eksctl get cluster
+   19  eksctl get nodegroup --cluster=eksdemo1
+   20  kubectl get no
+   21  kubectl get nodes
+   22  clear
+   23  kubectl get nodes -o wide
+   24  kubectk get ns
+   25  kubectl get ns
+   26  kubectl get all -n default
+   27  kubectl get all -n kube-node-lease
+   28  kubectl get all -n kube-public
+   29  clear
+   30  kubectl get all -n kube-system
+   31  ls -l
+   32  cat deployment.yaml 
+   33  kubectl get pods -n kube-system
+   34  kubectl get pods -n kube-system -o wide
+   35  kubectl get pods
+   36  clear
+   37  ls -l
+   38  kubectl apply -f deployment.yaml 
+   39  kubectl get all
+   40  kubectl get all -o wide
+   41  clear
+   42  kubectl get po -o wide
+   43  kubectl get rs
+   44  kubectl get deploy
