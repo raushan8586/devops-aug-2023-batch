@@ -17,3 +17,13 @@ abc1234.com/path3 --> microservices3 service
 Ingress
 1. ingress controller --> deploy this in the cluster to read the ingress resource --> nginx ingress Controller  (others Ingress Controllers --> AWS ALB, Traefik, HA Proxy)
 2. ingress resource --> yaml with the rules
+
+Steps:
+1. Install Nginx Controller
+2. Deploy microservices 1 with Services
+3. Deploy microservices 1 with Services
+4. Deploy Ingress Resourcs
+
+
+Nginx controller looks ar the ingress reosurce and create a LB with the ingress specified routes.
+
