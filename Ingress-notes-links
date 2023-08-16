@@ -1,0 +1,19 @@
+dns --> abc1234.com (url)
+
+dns --> load balancer
+
+Microservices 1 --> container1 --> LB1
+Microservices 2 --> container2 --> LB2
+Microservices 3 --> container3 --> LB3
+
+Not re-commended
+
+Ingress --> url/path-based routing
+
+abc1234.com/path1 --> microservices1 service
+abc1234.com/path2 --> microservices2 service
+abc1234.com/path3 --> microservices3 service
+
+Ingress
+1. ingress controller --> deploy this in the cluster to read the ingress resource --> nginx ingress Controller  (others Ingress Controllers --> AWS ALB, Traefik, HA Proxy)
+2. ingress resource --> yaml with the rules
