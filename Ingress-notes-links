@@ -25,5 +25,5 @@ Steps:
 4. Deploy Ingress Resourcs
 
 
-Nginx controller looks ar the ingress reosurce and create a LB with the ingress specified routes.
+https://blog.devgenius.io/k8s-ingress-demo-in-aws-eks-2be7d6d8ea95
 
