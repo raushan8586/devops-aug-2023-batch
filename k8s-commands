@@ -77,3 +77,28 @@ kubectl get rs
    42  kubectl get po -o wide
    43  kubectl get rs
    44  kubectl get deploy
+
+====================================================================================================================
+
+14  kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.2.0/deploy/static/provider/cloud/deploy.yaml
+   15  kubectl get all -n ingress-nginx
+   16  kubectl get ingressClass
+   17  ls -l
+   18  cat app1.yaml 
+   19  kubectl apply -f app1.yaml 
+   20  kubectl get all
+   21  ls -l
+   22  kubectl apply -f ingress.yaml 
+   23  kubectl get ingress --all-namespaces
+   24  kubectl get pods --all-namespaces
+   25  kubectl describe ingress ingress-nginx
+   26  kubectl get nginx-svc --all-namespaces
+   27  kubectl get svc nginx-svc --all-namespaces
+   28  kubectl describe svc nginx-svc --all-namespaces
+   29  kubectl describe svc nginx-svc
+   30  kubectl delete -f app1.yaml 
+   31  kubectl delete -f ingress.yaml 
+   32  kubectl delete -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.2.0/deploy/static/provider/cloud/deploy.yaml
+   33  eksctl get nodegroup --cluster=eksdemo1
+   34  eksctl delete nodegroup --cluster=eksdemo1 --name=ng-demo1
+   35  history
