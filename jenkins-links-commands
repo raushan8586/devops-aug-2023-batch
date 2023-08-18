@@ -51,3 +51,18 @@ Commands:
     9  apt-get install jenkins -y
    10  lsof -i -P -n | grep LISTEN
    11  cat /var/lib/jenkins/secrets/initialAdminPassword
+
+
+Add the remote node agent
+
+ubuntu@ip-172-31-39-51:~$ history
+    1  pwd
+    2  curl -sO http://13.232.29.83:8080/jnlpJars/agent.jar
+    3  ls -l
+    4  sudo su -
+    5  pwd
+    6  ls -l
+    7  java -jar agent.jar -jnlpUrl http://13.232.29.83:8080/computer/node1/jenkins-agent.jnlp -secret 96dec1bb2a122f2fde4e54ac11803d77b0898c4c854472f5f8f6c871999fa44c -workDir "/home/ubuntu"
+    8  history
+
+
