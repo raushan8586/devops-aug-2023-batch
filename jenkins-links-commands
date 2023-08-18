@@ -1,6 +1,9 @@
 Links:
 https://www.jenkins.io/doc/book/installing/linux/
 
+
+If you need to run commands/scripts as root user-->
+
 visudo
 jenkins ALL=(ALL) NOPASSWD: ALL    --> Add this line to sudoers
 ctrl+o and hit enter
@@ -11,8 +14,14 @@ service jenkins stop
 service jenkins start
 
 
+Dockerfile
+https://github.com/raushan8586/pipeline1.git
 
 
+Docker-Job
+sudo docker rm -f $(sudo docker ps -a -q)
+sudo docker build /var/lib/jenkins/workspace/job2 -t httpd1
+sudo docker run -itd -p 82:80 httpd1
 
 
 
