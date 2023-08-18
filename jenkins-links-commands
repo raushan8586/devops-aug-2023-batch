@@ -1,7 +1,14 @@
 Links:
 https://www.jenkins.io/doc/book/installing/linux/
 
+visudo
+jenkins ALL=(ALL) NOPASSWD: ALL    --> Add this line to sudoers
+ctrl+o and hit enter
+ctrl+x to exit
 
+service jenkins status
+service jenkins stop
+service jenkins start
 
 
 
