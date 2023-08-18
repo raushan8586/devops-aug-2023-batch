@@ -24,6 +24,19 @@ sudo docker build /var/lib/jenkins/workspace/job2 -t httpd1
 sudo docker run -itd -p 82:80 httpd1
 
 
+Slave nodes --> node1
+Manage Jenkins --> Nodes and Clouds --> Add New Node
+--> home directory --> /home/ubuntu
+
+jnlp protocol
+
+Manage Jenkins --> Security --> Agents -- select random
+
+security group
+open ports in Security Group --> ALL TCP
+
+pipeline plugin --> build pipeline 
+
 
 
 Commands:
