@@ -2,15 +2,15 @@ Installation
 https://maven.apache.org/download.cgi
 wget https://dlcdn.apache.org/maven/maven-3/3.9.4/binaries/apache-maven-3.9.4-bin.tar.gz
 https://maven.apache.org/install.html
-
+cd /
        wget https://dlcdn.apache.org/maven/maven-3/3.9.4/binaries/apache-maven-3.9.4-bin.tar.gz
    45  ls -l
    46  tar xzvf apache-maven-3.9.4-bin.tar.gz
    47  ls -l
-   48  mv apache-maven-3.9.4 maven
+   48  mv apache-maven-3.9.4 /maven
    49  ls -l
    50  pwd
-   51  M3_HOME='/root/maven'
+   51  M3_HOME='/maven'
    53  PATH="$M3_HOME/bin:$PATH"
    54  export PATH
    55  mvn -version
