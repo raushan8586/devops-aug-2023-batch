@@ -1,3 +1,6 @@
+https://maven.apache.org/
+https://jenkov.com/tutorials/maven/maven-tutorial.html
+
 Installation
 https://maven.apache.org/download.cgi
 wget https://dlcdn.apache.org/maven/maven-3/3.9.4/binaries/apache-maven-3.9.4-bin.tar.gz
@@ -14,3 +17,17 @@ cd /
    53  PATH="$M3_HOME/bin:$PATH"
    54  export PATH
    55  mvn -version
+
+Install the Maven Plugin
+
+Manage Jenkins --> Tools
+
+Maven-Job
+https://github.com/jenkins-docs/simple-java-maven-app.git
+
+Goals
+clean package
+
+https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
+
+
