@@ -1,0 +1,15 @@
+Continuous Monitoring --> why?
+
+1. Health Check
+2. KPIs --> Response time, CPU, Memory, Disk, Status Code, Errors & Exceptions, Load
+3. Alerting
+
+Tech Stack
+Database --> Query Execution time
+Disk IOPS
+
+Kafka --> Lags
+
+Tools:
+1. Prometheus & Grafana
+2. ELK (Elasticsearch, Logstash, Kibana)
