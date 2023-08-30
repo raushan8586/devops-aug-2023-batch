@@ -5,12 +5,18 @@ User Guide: https://docs.ansible.com/ansible/2.8/user_guide/index.html
 
 Ansible Modules:
 https://docs.ansible.com/ansible/2.9/modules/list_of_all_modules.html
+https://docs.ansible.com/ansible/2.9/modules/modules_by_category.html
+
 
 Installation:
 https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html#installing-ansible-on-ubuntu
 
+Adhoc Commands ---> Ansible Playbook ---> Ansible Roles
 
 
+Adhoc Commands:
+https://docs.ansible.com/ansible/2.8/user_guide/intro_adhoc.html
+https://www.middlewareinventory.com/blog/ansible-ad-hoc-commands/
 
 
 
