@@ -35,7 +35,8 @@ https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_handlers.html#h
 
 Variable: https://www.digitalocean.com/community/tutorials/how-to-use-variables-in-ansible-playbooks
 
-
+Ansible Vault:
+https://docs.ansible.com/ansible/latest/vault_guide/vault.html
 
 
 
