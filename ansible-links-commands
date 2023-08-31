@@ -81,3 +81,36 @@ To check the connectivuty
    23  ansible host1 -m ping
    24  ansible host2 -m ping
    25  history
+
+30  cd roles
+   31  ls -l
+   32  ansible-galaxy init role-demo1
+   33  ls -l
+   34  cd role-demo1/
+   35  ls -l
+   36  apt install tree -y
+   37  clear
+   38  ls -l
+   39  cd ..
+   40  tree
+   41  ls -l
+   42  cd role-demo1/
+   43  ls -l
+   44  cd tasks/
+   45  vi main.yml 
+   46  cat main.yml 
+   47  vi main.yml 
+   48  cat main.yml 
+   49  vi install.yaml
+   50  vi configure.yaml
+   51  vi service.yaml
+   52  cd ..
+   53  ls -l
+   54  cd files
+   55  vi index1.html
+   56  cd ../..
+   57  cd ..
+   58  ls -l
+   59  vi sample.yaml
+   61  ansible-playbook sample.yaml --syntax-check
+   62  ansible-playbook sample.yaml
