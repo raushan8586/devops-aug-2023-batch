@@ -1,3 +1,6 @@
 https://florientdogbe.medium.com/use-terraform-to-launch-ec2-instance-and-deploy-web-application-on-top-of-amazon-aws-7a29a9167963
 https://k21academy.com/terraform-iac/terraform-provisioners/
 https://github.com/hashicorp/terraform-guides/tree/master/infrastructure-as-code
+
+Terraform workspaces
+https://blog.gruntwork.io/how-to-manage-multiple-environments-with-terraform-using-workspaces-98680d89a03e
