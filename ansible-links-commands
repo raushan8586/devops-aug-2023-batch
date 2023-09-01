@@ -39,7 +39,9 @@ Variable: https://www.digitalocean.com/community/tutorials/how-to-use-variables-
 Ansible Vault:
 https://docs.ansible.com/ansible/latest/vault_guide/vault.html
 
-
+Static and Dynamic Inventory
+https://docs.ansible.com/ansible/latest/inventory_guide/intro_dynamic_inventory.html
+https://docs.ansible.com/ansible/latest/plugins/inventory.html#plugin-list
 
 Commands:
 root@ip-172-31-40-208:/etc/ansible# history
